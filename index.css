@@ -1,0 +1,261 @@
+.top-header  ul li a{
+    color: white;
+    text-decoration: none;
+    font-size:0.9rem;
+    font-weight: bold;
+}
+.navigation ul .dropdown a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.btn-bg{
+    background-image: linear-gradient(to right, #F09819 51%, #FF512F 100%);
+    color: white;
+    font-weight: bold;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-item{
+    color: black !important;
+}
+#curveDownColor-header {
+    fill: #0A178F;
+    stroke: #0A178F;
+}
+.title{
+    position: relative;
+}
+.title::after{
+    content:"";
+    position: absolute;
+   background-image: linear-gradient(to right, #F09819 51%, #FF512F 100%);
+   height: 3px;
+   border-radius: 2px;
+   width: 20%;
+   left: 0;
+   bottom: -0.8rem;
+}
+.service-icon-bg{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(173, 173, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .service-icon{
+    width:40px;
+    height:40px;
+}
+ .service-icon img{
+   width: 100%; 
+}
+.service-icon-outline{
+    height: 78px;
+    width: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid rgb(173, 173, 173);
+    position: relative;
+}
+.service-icon-outline::after{
+   position: absolute;
+   content: "";
+   height: 78px;
+    width: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid rgb(173, 173, 173);
+    transition: all 0.2s linear;
+}
+.service-icon-outline:hover::after{
+    transform: scale(1.2);
+}
+.services{
+    margin: 3rem 0 !important;
+}
+#curveUpColor-section-edge {
+    fill: #0A178F;
+    stroke: #0A178F;
+}
+.card-image{
+    height: 200px;
+
+}
+.card-image img{
+    height:200px;
+    object-position: center;
+    object-position: center;
+}
+.box-shadow{
+    box-shadow: 0px 0px 2px 0px black;
+}
+.hover-effect-btn{
+    position: relative;
+}
+.hover-effect-btn::after{
+   position: absolute;
+   content: "";
+   width:10%;
+   height:30%;
+   border-top: 3px solid blue;
+   border-right: 3px solid blue;
+   display: block;
+   top: 0;
+   right: 0;
+   transition: 0.4s ease-in-out;
+}
+.hover-effect-btn::before{
+    position: absolute;
+    content: "";
+    width:10%;
+    height:30%;
+    border-bottom: 3px solid blue;
+    border-left: 3px solid blue;
+    display: block;
+    left: 0;
+    bottom: 0;
+    transition: 0.4s ease-in-out;
+ }
+ .hover-effect-btn:hover::after,
+ .hover-effect-btn:hover::before{
+   width: 100%;
+   height: 100%;
+ }
+ .our-team{
+     margin-top:12rem;
+ }
+ .our-team-title{
+     position: relative;
+ }
+ .our-team-title::after{
+    content:"";
+    position: absolute;
+   background-image: linear-gradient(to right, #F09819 51%, #FF512F 100%);
+   height: 3px;
+   border-radius: 2px;
+   width:6%;
+   left: 47%;
+   bottom: -0.8rem;
+}
+.signature{
+    width: 150px;
+    height: 50px;
+}
+.range{
+    position: relative;
+    height: 1rem;
+    width: 100%;
+    background-color: rgb(143, 140, 140);
+}
+.range::after{
+    position: absolute;
+    content: "89%";
+    height: 100%;
+    width: 89%;
+    background-color: green;
+    left: 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.range1{
+    position: relative;
+    height: 1rem;
+    width: 100%;
+    background-color: rgb(143, 140, 140);
+}
+.range1::after{
+    position: absolute;
+    content: "70%";
+    height: 100%;
+    width: 70%;
+    background-color: pink;
+    left: 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.range2{
+    position: relative;
+    height: 1rem;
+    width: 100%;
+    background-color: rgb(143, 140, 140);
+}
+.range2::after{
+    position: absolute;
+    content: "79%";
+    height: 100%;
+    width: 79%;
+    background-color: orange;
+    left: 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-click{
+    position: relative;
+}
+.video-click::after{
+    position: absolute;
+    content: "\f144";
+    font-family:"Font Awesome 5 Free";
+    font-size: 4rem;
+    left: 40%;
+    top: 40%;
+    color: orange;
+}
+.video-click:hover::after{
+    color: green;
+}
+.footer-logo{
+    width: 120px;
+    height: 30px;
+}
+.footer ul {
+    list-style: none;
+}
+.footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer ul li:hover a{
+    color: chocolate;
+}
+@media(max-width:992px){
+    .company-info .border-end{
+        border: none !important;
+    }
+    .company-info .card-res{
+           margin-bottom: 10rem;
+    }
+    .card-bg{
+        background-color: #fff;
+    }
+    .our-team{
+        margin-top:2rem;
+    }
+    .carousel-res{
+        margin: 1rem 0;
+    }
+    .sign-res{
+        margin-bottom: 2rem;
+    }
+}
